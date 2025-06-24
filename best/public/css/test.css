@@ -1,18 +1,13 @@
-/* Colorful Theme for ERPNext */
-
-/* Main body background */
 body {
     background: linear-gradient(135deg, #FFDEE9 0%, #B5FFFC 100%) !important;
 }
 
-/* Desktop/Workspace background */
 .desk-page,
 .page-container,
 .layout-main-section {
     background: linear-gradient(135deg, #F9D423 0%, #FF4E50 100%) !important;
 }
 
-/* Form containers */
 .form-page,
 .frappe-card,
 .widget-group {
@@ -20,18 +15,15 @@ body {
     border: 2px solid #FF61A6 !important;
 }
 
-/* Sidebar */
 .desk-sidebar {
     background: linear-gradient(135deg, #43CEA2 0%, #185A9D 100%) !important;
 }
 
-/* Navbar */
 .navbar {
     background: linear-gradient(135deg, #FF512F 0%, #DD2476 100%) !important;
     border-bottom: 2px solid #F7971E !important;
 }
 
-/* List views */
 .list-row {
     background: linear-gradient(90deg, #F7971E 0%, #FFD200 100%) !important;
     border-bottom: 2px solid #FF61A6 !important;
@@ -41,30 +33,25 @@ body {
     background: linear-gradient(90deg, #43CEA2 0%, #185A9D 100%) !important;
 }
 
-/* Cards */
 .card {
     background: linear-gradient(135deg, #FFDEE9 0%, #B5FFFC 100%) !important;
     border: 2px solid #30E8BF !important;
 }
 
-/* Modals */
 .modal-content {
     background: linear-gradient(135deg, #FF512F 0%, #F9D423 100%) !important;
     border: 2px solid #43CEA2 !important;
 }
 
-/* Text muted */
 .text-muted {
     color: #FF61A6 !important;
 }
 
-/* Dashboard tiles */
 .widget {
     background: linear-gradient(135deg, #30E8BF 0%, #FF8235 100%) !important;
     border: 2px solid #FFD200 !important;
 }
 
-/* Grid rows */
 .grid-row {
     background: linear-gradient(90deg, #FFDEE9 0%, #B5FFFC 100%) !important;
 }
