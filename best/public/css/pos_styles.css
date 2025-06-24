@@ -1,0 +1,74 @@
+/* Custom Light Blue Background Theme for ERPNext */
+
+/* Main body background */
+body {
+    background-color: #F0F8FF !important; /* Alice Blue - very light */
+}
+
+/* Desktop/Workspace background */
+.desk-page,
+.page-container,
+.layout-main-section {
+    background-color: #F8FCFF !important; /* Even lighter blue tint */
+}
+
+/* Form containers */
+.form-page,
+.frappe-card,
+.widget-group {
+    background-color: #FFFFFF !important; /* Keep forms white for readability */
+    border: 1px solid #1c232b !important; /* Light blue border */
+}
+
+/* Sidebar */
+.desk-sidebar {
+    background-color: #EBF5FF !important; /* Slightly darker light blue */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #D6EBFF !important; /* Light blue navbar */
+    border-bottom: 1px solid #B8DAFF !important;
+}
+
+/* List views */
+.list-row {
+    background-color: #FFFFFF !important;
+    border-bottom: 1px solid #F0F8FF !important;
+}
+
+.list-row:hover {
+    background-color: #F8FCFF !important;
+}
+
+/* Cards */
+.card {
+    background-color: #FFFFFF !important;
+    border: 1px solid #E1F0FF !important;
+}
+
+/* Modals */
+.modal-content {
+    background-color: #FFFFFF !important;
+    border: 1px solid #D6EBFF !important;
+}
+
+/* Ensure text remains readable */
+.text-muted {
+    color: #6c757d !important;
+}
+
+/* Dashboard tiles */
+.widget {
+    background-color: #FFFFFF !important;
+    border: 1px solid #E1F0FF !important;
+}
+
+/* Grid rows */
+.grid-row {
+    background-color: #FFFFFF !important;
+}
+
+.grid-row:nth-child(even) {
+    background-color: #F8FCFF !important;
+}

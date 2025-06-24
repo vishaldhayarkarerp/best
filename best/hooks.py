@@ -5,7 +5,17 @@ app_description = "Testing Tailwind application"
 app_email = "vishal.dhayarkar@erpdata.in"
 app_license = "mit"
 
-# Apps
+app_include_css = [
+    "/assets/best/css/test.css"
+]
+app_include_js = "/assets/best/js/custom_theme.js"
+
+doctype_js = {
+    "Sales Order": "/assets/best/js/sales_order_list.js"
+}
+
+# Apps 
+# "/assets/best/css/input.css",
 # ------------------
 
 # required_apps = []
